@@ -94,7 +94,7 @@ I’m here to build partnerships, pilots, and collaborative ownership structures
 ## Contact
 
 📧 **kyle@ixian.tech**  
-🌐 [Orbswap](https://orbswap.org) | [Nerite](https://nerite.org) | [SeedTreeDB](https://seedtreedb.com)  
+🌐 [Orbswap](https://orbswap.org) | [Ixian](https://ixian.tech) | [SeedTreeDB](https://seedtreedb.com)  
 🔗 [Patent WO2020160021](https://patentscope.wipo.int/search/en/WO2020160021)
 
 ---

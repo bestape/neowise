@@ -67,14 +67,16 @@ In this way, Neowise is more than software. It’s an **autonomous, expert profe
 
 To prove when this work was created, here are the session timestamps from my NC/ACC AI chat logs:
 
-- **2025‑09‑13 12:20** — Sublinear growth model discussions (squareRootIntegers math context).
-- **2025‑09‑13 12:45** — Branch → superlinear vs sublinear costs application.
-- **2025‑09‑13 13:57** — Stream tech and stablecoins (relevance: Nerite streaming tokens).
-- **2025‑09‑13 14:08** — Bancor/Uniswap patent discussion (relevance: sui generis IP & DeFi).
-- **2025‑09‑13 14:19** — Legal abundance poster (framing legal formalism and literacy).
-- **2025‑09‑13 15:00** — Neowise GitHub site creation request.
-- **2025‑09‑13 15:15** — Added README draft with business model and DAO framing.
-- **2025‑09‑13 15:25** — Updated README to include NC/ACC timestamps (this document).
+~~- **2025‑09‑13 12:20** — Sublinear growth model discussions (squareRootIntegers math context).~~
+~~- **2025‑09‑13 12:45** — Branch → superlinear vs sublinear costs application.~~
+~~- **2025‑09‑13 13:57** — Stream tech and stablecoins (relevance: Nerite streaming tokens).~~
+~~- **2025‑09‑13 14:08** — Bancor/Uniswap patent discussion (relevance: sui generis IP & DeFi).~~
+~~- **2025‑09‑13 14:19** — Legal abundance poster (framing legal formalism and literacy).~~
+~~- **2025‑09‑13 15:00** — Neowise GitHub site creation request.~~
+~~- **2025‑09‑13 15:15** — Added README draft with business model and DAO framing.~~
+~~- **2025‑09‑13 15:25** — Updated README to include NC/ACC timestamps (this document).~~
+
+Edit: time stamps are actually at [Kyle bestape acc 9 13.txt](./Kyle%20bestape%20acc%209%2013.txt). But the strikethroughs are chats I had with ChatGPT 5 earlier in the day about another area of mathematics I'm developing that integrates sublinear economies of scale into the exponent of superlinear startup growth as the exponential growth boost to better understand the Google-type growth described at [https://govclab.com/2023/08/09/the-power-law-in-vc](https://govclab.com/2023/08/09/the-power-law-in-vc) within a sustainable development model.
 
 All of this happened within the **90‑minute NC/ACC competition window**.
 

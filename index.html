@@ -1,0 +1,186 @@
+<!--
+Neowise AI - Single-file GitHub-hostable landing page
+How to use:
+1) Save this file as `index.html` in a new GitHub repo (or the root of `gh-pages` branch) and enable GitHub Pages from repository settings (source: main branch / root or gh-pages branch).
+2) Optional: add assets (logo, images) into an `assets/` folder and update paths.
+3) Edit copy or sections directly in this file.
+
+Resources referenced in the content below (replace links or add icons as desired):
+- GitHub repo (example): https://github.com/bestape/squareRootIntegers
+- Artizen pitch: https://artizen.fund/index/p/squaring-the-spiral?season=5
+- Patent: https://patentscope.wipo.int/search/en/WO2020160021
+- SeedTreeDB: https://seedtreedb.com
+- Orbswap: https://orbswap.org
+- Nerite: https://nerite.org
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Neowise — Hybrid Wolfram • OpenAI AI for DeFi & Legal Formalization</title>
+  <meta name="description" content="Neowise: an AI trained on square-root integer AMM math, script-database calculus patents, and digital legal formalization to build the next generation of DeFi UX & secure uxNFT frontends." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- tiny blank favicon, replace as desired -->
+  <style>
+    /* Minimal, modern responsive styles - single file for easy GitHub Pages hosting */
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#7dd3fc;--muted:#94a3b8;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial;color:#e6eef8;background:linear-gradient(180deg,#071028 0%, #071827 60%);-webkit-font-smoothing:antialiased}
+    .container{max-width:1100px;margin:0 auto;padding:36px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,#0ea5e9,#06b6d4);display:flex;align-items:center;justify-content:center;color:#012;background-blend-mode:screen;font-weight:700}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:28px}
+    .card{background:var(--card);border-radius:12px;padding:22px;box-shadow:0 6px 24px rgba(2,6,23,0.6);}
+    .cta{display:flex;gap:12px;margin-top:18px}
+    a.button{background:var(--accent);color:#012;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+    a.ghost{border:1px solid rgba(255,255,255,0.06);color:var(--accent);padding:11px 16px;border-radius:10px;text-decoration:none}
+    ul.features{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    ul.features li{background:var(--glass);padding:10px;border-radius:8px;color:var(--muted);font-size:14px}
+    .meta{font-size:13px;color:var(--muted);margin-top:10px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,0.04);font-size:13px;color:var(--muted)}
+    main section{margin-top:36px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .box{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:10px}
+    footer{color:var(--muted);padding:28px 0;text-align:center}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;}.grid-3{grid-template-columns:1fr}.logo{width:48px;height:48px}.container{padding:18px}}
+    .small{font-size:13px;color:var(--muted)}
+    pre{background:#031223;padding:12px;border-radius:8px;overflow:auto;color:#bfe9ff}
+    .link{color:var(--accent);text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">N</div>
+        <div>
+          <h1>Neowise</h1>
+          <p class="lead">Hybrid Wolfram • OpenAI AI that teaches and ships first-principles DeFi and legal formalization.</p>
+        </div>
+      </div>
+      <nav>
+        <a class="pill" href="#get-started">Get started</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="card">
+          <h2>Train one pupil — scale a whole studio</h2>
+          <p class="meta">Neowise is an expert AI trained on square-root integer AMM math, the "calculus computing" patent family, and SeedTree's digital legal formalization. It acts as an infinitely-replicable expert and teacher for DeFi, uxNFTs, and legal tracing in complex financial products.</p>
+
+          <div class="cta">
+            <a class="button" href="#demo">View demo</a>
+            <a class="ghost" href="#roadmap">Roadmap</a>
+          </div>
+
+          <ul class="features">
+            <li><strong>AMM Math</strong><br><span class="small">Square Root Integers — nextgen liquidity primitives</span></li>
+            <li><strong>Patent-backed</strong><br><span class="small">Trained on WO2020160021-style script-database calculus</span></li>
+            <li><strong>Legal Formalization</strong><br><span class="small">SeedTree syntax for traceable decisions & tort sensitivity</span></li>
+            <li><strong>DeFi UX</strong><br><span class="small">uxNFT frontends and ERC-7827 value/version data architecture</span></li>
+          </ul>
+
+          <p class="meta">First users: Ixventure.studio (founder’s venture studio) with near-term integrations: <a class="link" href="https://orbswap.org">Orbswap</a>, <a class="link" href="https://nerite.org">Nerite</a>.</p>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Quick facts</h3>
+          <p class="small"><strong>Founder:</strong> Kyle MacLean Smith (bestape) — lawyer, mathematician, patent-holder.</p>
+          <p class="small"><strong>Stage:</strong> Innovator → building MVP (Neowise v0)</p>
+          <p class="small"><strong>Why now:</strong> Combine formal mathematics, legal traceability & streaming token tech to unlock new DeFi primitives.</p>
+
+          <div style="margin-top:12px">
+            <a class="link" href="https://artizen.fund/index/p/squaring-the-spiral?season=5">Squaring the Spiral — pitch</a><br>
+            <a class="link" href="https://github.com/bestape/squareRootIntegers">squareRootIntegers (GitHub)</a><br>
+            <a class="link" href="https://patentscope.wipo.int/search/en/WO2020160021">WO2020160021 — patent family</a>
+          </div>
+
+          <div class="meta" style="margin-top:12px">Contact: <a class="link" href="mailto:kyle@ixian.tech">kyle@ixian.tech</a></div>
+        </div>
+      </aside>
+    </section>
+
+    <main>
+      <section id="problem">
+        <h2>Problem</h2>
+        <p class="small">Foundational DeFi and legal-formalization technologies are rare and hard to teach. Teams can't spin up experts quickly to implement first-principles AMMs, uxNFT-enabled frontends, or legally-traceable contract decisions. Neowise solves this by becoming the trained expert — one AI pupil that trains teams and ships production-ready outputs.</p>
+      </section>
+
+      <section id="solution">
+        <h2>Solution</h2>
+        <div class="grid-3">
+          <div class="box">
+            <h4>Hybrid knowledge stack</h4>
+            <p class="small">Combine Wolfram-style symbolic math with LLM engineering to produce deterministic, testable, and explainable outputs for AMMs and financial product design.</p>
+          </div>
+          <div class="box">
+            <h4>Patent-informed training</h4>
+            <p class="small">Train on the "calculus computing" patent family and SeedTreeDB syntax so generated code and decisions are traceable and compatible with sui generis IP claims where relevant.</p>
+          </div>
+          <div class="box">
+            <h4>Developer-first outputs</h4>
+            <p class="small">Ship code, test suites, mathematical proofs, and uxNFT frontends that integrate with Orbswap and streaming token primitives.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="use-cases">
+        <h2>Use cases</h2>
+        <ul>
+          <li class="small">Automated AMM design & parameterization for Orbswap-like markets.</li>
+          <li class="small">Realtime streaming-token stablecoin tooling (nerite-style streams).</li>
+          <li class="small">uxNFT frontends for DeFi with built-in legal traceability (ERC-7827 / SeedTree).</li>
+          <li class="small">Training programs: make Neowise the instructor for on-boarding engineering teams.</li>
+        </ul>
+      </section>
+
+      <section id="roadmap">
+        <h2>Roadmap</h2>
+        <ol class="small">
+          <li>v0 — train Neowise on squareRootIntegers, SeedTreeDB excerpts, and script-database calculus samples. Ship a demo repo + docs.</li>
+          <li>v1 — integrate with Orbswap & Nerite streams; produce uxNFT frontend examples and sample contracts (ERC-7827).</li>
+          <li>v2 — productize Neowise for Ixventure.studio; provide tiered access & co-ownership model for outputs.</li>
+          <li>v3 — expand to legal/formalization clients (lesa.law style collaboration) and Base Scale architecture tooling.</li>
+        </ol>
+      </section>
+
+      <section id="demo">
+        <h2>Demo & example</h2>
+        <p class="small">Below is an example README snippet you can paste into a repo to show Neowise outputs and run a local demo.</p>
+        <pre><code>### Neowise v0 — quick demo
+
+1. Clone the math repo:
+   git clone https://github.com/bestape/squareRootIntegers
+2. Run the demo script (example):
+   python3 demo/neowise_query.py --query "design AMM for stablecoin X with target liquidity curve"
+3. Review generated artifacts in /outputs including model explanation, unit tests, and contract skeletons.
+
+Contact kyle@ixian.tech to request access or collaboration.</code></pre>
+      </section>
+
+      <section id="team">
+        <h2>Team & contact</h2>
+        <p class="small">Founder: Kyle MacLean Smith — lawyer, mathematician, studio lead. Reach out to discuss integrations, pilot work, or accelerator partnerships.</p>
+        <p class="small">Email: <a class="link" href="mailto:kyle@ixian.tech">kyle@ixian.tech</a></p>
+      </section>
+
+      <section id="get-started">
+        <h2>Get started</h2>
+        <p class="small">Want this repo initialized and pushed to GitHub for you, with CI, gh-pages, and a demo workflow? Reply with the repo name you'd like and whether you want a single-file site or a React/Tailwind repo and I'll scaffold it.</p>
+        <p class="small">If you want to self-host: save this file as <code>index.html</code>, create a new GitHub repository, push it to the main branch and enable GitHub Pages in repo settings (choose main / root). Your site will be served at <code>https://&lt;username&gt;.github.io/&lt;repo&gt;/</code>.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="small">Neowise — hybrid Wolfram/OpenAI AI • Built by bestape. • <a class="link" href="https://github.com/bestape/squareRootIntegers">Repo</a> • <a class="link" href="https://seedtreedb.com">SeedTreeDB</a></div>
+    </footer>
+  </div>
+</body>
+</html>

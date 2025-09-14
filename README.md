@@ -102,3 +102,12 @@ I’m here to build partnerships, pilots, and collaborative ownership structures
 **Neowise is the pupil. The DAO is the classroom. The outputs are the future of ownership.**
 
 OpenAI Statement: [https://chatgpt.com/share/68c61aa6-1c08-800b-9049-ef6229e796a3](https://chatgpt.com/share/68c61aa6-1c08-800b-9049-ef6229e796a3)
+
+## Retro Public Good FMV (side note: [myfmv.ai](https://myfmv.ai) is our IxTech!)
+
+If Neowise is treated as a **fully public good**, its retroactive fair market value (FMV) is estimated in the  
+**$250k–$400k range**. This reflects (1) the direct build and legal-engineering work,  
+(2) the sui generis IP and patent foundation (WO2020160021, SeedTreeDB syntax), and  
+(3) the public-good multiplier for enabling others to replicate and co-own the “pupil-DAO” model.  
+See [https://chatgpt.com/share/68c61be6-d5e8-8008-a152-19daab5f9288](https://chatgpt.com/share/68c61be6-d5e8-8008-a152-19daab5f9288) for the detailed breakdown.
+
